@@ -50,7 +50,6 @@ class GenerateDialog : DialogWrapper(true) {
 
             add(buildTextField().apply {
                 alignmentX = JComponent.LEFT_ALIGNMENT
-                maximumSize = Dimension(300, preferredSize.height) // Prevent stretching
             })
 
             add(JCheckBox("Is pop-up?").apply {
